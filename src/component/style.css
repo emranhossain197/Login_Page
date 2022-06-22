@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Montserrat&family=PT+Serif&family=Unna&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+    .contant {
+        /* display: flex; */
+        height: 100vh;
+    }
+
+    .left {
+        flex-basis: 50%;
+        padding: 15% 7%;
+    }
+
+    .left h1 {
+        padding-bottom: 15px;
+    }
+
+    .left p:first-of-type {
+        color: rgb(156, 156, 156);
+        font-size: 19px;
+        padding-bottom: 40px;
+    }
+
+    .input-box {
+        border: 1px solid rgb(156, 156, 156);
+        padding: 10px 8px;
+        margin-bottom: 20px;
+        display: flex;
+        box-sizing: border-box !important;
+        box-shadow: none;
+    }
+
+    .input-box span {
+        font-size: 25px;
+        color: rgb(156, 156, 156);
+        flex-basis: 15%;
+        text-align: center;
+        padding-right: 8px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+
+    .link {
+        color: black;
+        font-weight: 600;
+    }
+
+    .btn {
+        width: 100%;
+        background-color: green;
+        padding: 7px 0px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .input-box input {
+        border: 0px solid;
+        font-size: 20px;
+        border-bottom: none;
+    }
+
+    .input-box input:focus {
+        outline: none;
+    }
+
+    .rememder {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .rememder span {
+        padding-left: 5px;
+    }
+
+    h4 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: rgb(158, 155, 155);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .socail-madia {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .right {
+        display: none;
+
+    }
+    .forget{
+        padding-top: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 701px) {
+    .contant {
+        display: flex;
+        height: 100vh;
+    }
+
+    .left {
+        flex-basis: 50%;
+        padding: 6% 8%;
+    }
+
+    .left h1 {
+        padding-bottom: 15px;
+    }
+
+    .left p:first-of-type {
+        color: rgb(156, 156, 156);
+        font-size: 19px;
+        padding-bottom: 40px;
+    }
+
+    .input-box {
+        border: 1px solid rgb(156, 156, 156);
+        padding: 10px 8px;
+        margin-bottom: 20px;
+        display: flex;
+        box-sizing: border-box !important;
+        box-shadow: none;
+    }
+
+    .input-box span {
+        font-size: 25px;
+        color: rgb(156, 156, 156);
+        flex-basis: 15%;
+        text-align: center;
+        padding-right: 8px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+
+    .link {
+        color: black;
+        font-weight: 600;
+    }
+
+    .btn {
+        width: 100%;
+        background-color: green;
+        padding: 7px 0px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .input-box input {
+        border: 0px solid;
+        font-size: 20px;
+        border-bottom: none;
+    }
+
+    .input-box input:focus {
+        outline: none;
+    }
+
+    .rememder {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .rememder span {
+        padding-left: 5px;
+    }
+
+    h4 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: rgb(158, 155, 155);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .socail-madia {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .right {
+        flex-basis: 50%;
+        background-image: url(./images/image.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+
+    }
+
+    .logo {
+        font-family: 'Unna', serif;
+        font-size: 29px;
+        padding: 30px 0px 80% 0px;
+
+    }
+
+    .right-h1 {
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .right p {
+        width: 60%;
+        font-size: 18px;
+        display: inline-block;
+    }
+    .forget{
+        padding-top: 15%;
+    }
+}
